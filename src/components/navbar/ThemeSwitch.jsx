@@ -6,14 +6,15 @@ import {Sun, Moon} from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const ThemeSwitch = () => {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme, resolvedTheme } = useTheme();
+ /*const [mounted, setMounted] = useState(false);
+  
 
   useEffect(() => {
       setMounted(true);
-  }, []);
+  }, []);*/
+  const { theme, setTheme, resolvedTheme } = useTheme();
 
-  const isDarkMode = mounted && (theme === 'dark' || resolvedTheme === 'dark');
+  const isDarkMode =  theme === 'dark' || resolvedTheme === 'dark';
 
   return (
    <motion.div 

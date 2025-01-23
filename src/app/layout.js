@@ -1,18 +1,22 @@
+'use client'
 import Navbar from "@/components/navbar/Navbar";
 import "./globals.css";
 import ThemeProvider from "@/Provider/ThemeProvider"; 
 import Footer from "@/components/Footer/Footer";
 
 
-
-
-
-export const metadata = {
-  title: "Smitha | Portfolio",
-  description: "Developed By Smitha.",
-};
+import React, {useState, useEffect} from "react";
 
 export default function RootLayout({ children }) {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
   return (
     <html lang="en">
       <head>
