@@ -34,7 +34,7 @@ const DetailedProject = ({ projectData }) => {
           ))}
         </div>
         <div className="mt-10">
-          <p className="mt-5 text-3xl font-playfair leading-relaxed"> {projectData.description}</p>
+          <p className="mt-5 text-2xl font-playfair leading-relaxed"> {projectData.description}</p>
           <div>
             <h1 className="font-bold text-md md:text-lg lg:text-xl font-mono text-title dark:text-title mt-10">
            

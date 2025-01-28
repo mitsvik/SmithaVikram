@@ -21,16 +21,12 @@ const projectData = {
   ],
   technologies: [
     {
-      name: "React",
-      link: "https://reactjs.org/",
-      icon: "/static/icon/React.png",
+      name: "Salesforce",
+      link: "https://developer.salesforce.com/developer-centers/lightning-web-components",
+      icon: "/static/icon/salesforce.png"
     },
-    {
-      name: "Tailwind CSS",
-      link: "https://tailwindcss.com/",
-      icon: "/static/icon/Tailwind.png",
-    },
-  ],
+  
+  ]
 }
 
 const page = () => {

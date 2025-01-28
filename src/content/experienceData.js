@@ -11,8 +11,8 @@ const experienceData = [
                 skills: ["Lightning Web Components (LWC)", "Salesforce triggers", "Screen flows"],
             },
         ],
-        imageUrl: "https://example.com/logo1.png",
-        linkedIn: "https://www.linkedin.com/company/abc-corporation/"
+        imageUrl: "/static/logos/handr.png",
+        linkedIn: "https://www.linkedin.com/in/smitha-v-b6290b12/"
     },
 
     {
@@ -27,8 +27,8 @@ const experienceData = [
                 skills: ["Vlocity", "Lightning Web Components (LWC)", "Copado deployment", "Apex triggers"],
             },
         ],
-        imageUrl: "https://example.com/logo1.png",
-        linkedIn: "https://www.linkedin.com/company/abc-corporation/"
+        imageUrl: "/static/logos/hwkaufman_logo.jpeg",
+        linkedIn: "https://www.linkedin.com/in/smitha-v-b6290b12/"
     },
     {
         companyName: "Quicken Loans",
@@ -42,8 +42,8 @@ const experienceData = [
                 skills: ["Batch processing", "Data integration", "REST API Integration"],
             },
         ],
-        imageUrl: "https://example.com/logo1.png",
-        linkedIn: "https://www.linkedin.com/company/abc-corporation/"
+        imageUrl: "/static/logos/ql.jpeg",
+        linkedIn: "https://www.linkedin.com/in/smitha-v-b6290b12/"
     },
 
 

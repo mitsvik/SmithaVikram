@@ -26,7 +26,7 @@ const Footer = () => {
                {/* rhs links */}
                <ul className='flex cursor-pointer items-center space-x-5'>
                 <li>
-                    <a href='/'
+                    <a href={siteMetadata.linkedin}
                     target="_blank"
                     rel="nonreferrer"
                     aria-label="linkedin">
@@ -36,7 +36,7 @@ const Footer = () => {
 
                 </li>
                 <li>
-                    <a href='/'
+                    <a href={siteMetadata.github}
                     target="_blank"
                     rel="nonreferrer"
                     aria-label="github" >
